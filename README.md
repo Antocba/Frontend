@@ -5,6 +5,13 @@
 Este Trabajo Práctico (TP) corresponde a la materia Frontend de segundo año de la Tecnicatura en Desarrollo de Software del Instituto de Formación Técnica Superior N°29 (IFTS 29). Se enmarca dentro de un proceso de aprendizaje continuo, en el que se busca no solo poner en práctica los contenidos trabajados en la cursada, sino también seguir desarrollando y fortaleciendo nuevas habilidades vinculadas al desarrollo de interfaces web. A través de este proyecto, se busca integrar los conocimientos adquiridos y continuar afianzando capacidades para desarrollar propuestas funcionales y organizadas.
 
 
+Enlace a GitHub Pages: https://antocba.github.io/Frontend/
+
+Enlace a Vercel: https://antocba-frontend.vercel.app/
+
+
+
+
 **Checklist - Práctica Formativa Obligatoria 1**
 
 
@@ -23,77 +30,79 @@ Este Trabajo Práctico (TP) corresponde a la materia Frontend de segundo año de
 
 **• Repositorio y Publicación:**
 
-**\[ ] Repositorio en GitHub creado.**
+**\[X] Repositorio en GitHub creado.**
 
-**\[ ] Proyecto subido al repositorio.**
+**\[X] Proyecto subido al repositorio.**
 
-**\[ ] Proyecto publicado utilizando GitHub Pages.**
+**\[X] Proyecto publicado utilizando GitHub Pages.**
 
-**\[ ] En el "README.md" se indica la URL de GitHub Pages.**
+**\[X] En el "README.md" se indica la URL de GitHub Pages.**
 
 
 
 **• Uso de Google Fonts:**
 
-**\[ ] Enlace a Google Fonts incluido en la sección "head" del HTML.**
+**\[X] Enlace a Google Fonts incluido en la sección "head" del HTML.**
 
-**\[ ] La tipografía importada se aplica en el sitio.**
+**\[X] La tipografía importada se aplica en el sitio.**
 
-**\[ ] Redacta brevemente tu decisión: ¿Por qué elegiste esa fuente?**
+**\[X] Redacta brevemente tu decisión: ¿Por qué elegiste esa fuente?**
 
-**Respuesta: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
+**Respuesta: Para el título me gustaba elegir una fuente que sea original, rara y destaque. También fue importante que sea en español por la cuestión de las ñ y las tildes. En cuanto al texto para los párrafos, elegí una fuente que me da la sensación de frescura y no tan rígido.**
 
 
 
 **• HTML:**
 
-**\[ ] El documento inicia con la declaración DOCTYPE y usa el atributo lang="es".**
+**\[X] El documento inicia con la declaración DOCTYPE y usa el atributo lang="es".**
 
-**\[ ] Se han incluido las metaetiquetas obligatorias: charset y viewport.**
+**\[X] Se han incluido las metaetiquetas obligatorias: charset y viewport.**
 
-**\[ ] Se ha definido un título descriptivo.**
+**\[X] Se ha definido un título descriptivo.**
 
-**\[ ] Se han vinculado correctamente el archivo CSS y el enlace a Google Fonts.**
+**\[X] Se han vinculado correctamente el archivo CSS y el enlace a Google Fonts.**
 
 **Secciones obligatorias en "main":**
 
-**\[ ] Barra de navegación ("nav") presente y contiene al menos 3 enlaces.**
+**\[X] Barra de navegación ("nav") presente y contiene al menos 3 enlaces.**
 
-**\[ ] Se han insertado al menos 4 comentarios explicativos en el código HTML.**
+**\[X] Se han insertado al menos 4 comentarios explicativos en el código HTML.**
+
+
 
 **• CSS:**
 
-**\[ ] Existe el archivo "styles.css" con estilos personalizados.**
+**\[X] Existe el archivo "styles.css" con estilos personalizados.**
 
-**\[ ] Se utilizan selectores basados en clases e identificadores.**
+**\[X] Se utilizan selectores basados en clases e identificadores.**
 
-**\[ ] La tipografía importada desde Google Fonts se aplica correctamente en todos los elementos.**
+**\[X] La tipografía importada desde Google Fonts se aplica correctamente en todos los elementos.**
 
 **Layout y Organización:**
 
-**\[ ] Se ha organizado el layout (especialmente en la sección "tarjetas") utilizando Flexbox o Grid.**
+**\[X] Se ha organizado el layout (especialmente en la sección "tarjetas") utilizando Flexbox o Grid.**
 
-**\[ ] Redacta: ¿Qué ventajas encontraste al utilizar Flexbox o Grid en tu proyecto?**
+**\[X] Redacta: ¿Qué ventajas encontraste al utilizar Flexbox o Grid en tu proyecto?**
 
-**Respuesta: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
+**Respuesta: Al utilizarlos la disposición de los elementos se encontraba más armónica y ordenada, tanto sea teniendo en cuenta filas o columnas. En el caso de los proyectos, por ejemplo, donde quería que los 3 se lucieran, usando flexbox pude situarlos en fila.**
 
 **Estilización de Componentes:**
 
-**\[ ] Se han personalizado los estilos de tablas, botones, enlaces y formularios.**
+**\[X] Se han personalizado los estilos de tablas, botones, enlaces y formularios.**
 
-**\[ ] Se han ajustado las dimensiones de imágenes y contenedores utilizando unidades relativas (%,**
+**\[X] Se han ajustado las dimensiones de imágenes y contenedores utilizando unidades relativas (%,**
 
 **rem, vh).**
 
-**\[ ] Se ha implementado al menos una animación o transición (por ejemplo, efecto hover en**
+**\[X] Se ha implementado al menos una animación o transición (por ejemplo, efecto hover en**
 
 **tarjetas o botones).**
 
-**\[ ] Redacta: ¿Qué animación o transición implementaste y por qué consideraste que era**
+**\[X] Redacta: ¿Qué animación o transición implementaste y por qué consideraste que era**
 
 **adecuada para tu proyecto?**
 
-**Respuesta: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
+**Respuesta: Utilicé hover que le da un efecto de iluminación cuando se coloca el mouse por encima. Creo que le da dinamismo a la página para que no quede tan "plana". Primeramente había buscado unas animaciones en cuanto a iluminarlo y las opciones eran con java, pero seguí buscando y encontré que se podía hacerlo con el mismo css.**
 
 
 
@@ -101,7 +110,7 @@ Este Trabajo Práctico (TP) corresponde a la materia Frontend de segundo año de
 
 **\[ ] El diseño es responsivo y se visualiza correctamente en distintos dispositivos.**
 
-**\[ ] Se aplicaron buenas prácticas de accesibilidad (por ejemplo, uso adecuado de atributos alt en**
+**\[X] Se aplicaron buenas prácticas de accesibilidad (por ejemplo, uso adecuado de atributos alt en**
 
 **las imágenes).**
 
