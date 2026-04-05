@@ -11,13 +11,13 @@ Este Trabajo Práctico (TP) corresponde a la materia Frontend de segundo año de
 
 **• Estructura del Proyecto:**
 
-**\[ ] Archivo "index.html" ubicado en la raíz.**
+**\[X] Archivo "index.html" ubicado en la raíz.**
 
-**\[ ] Carpeta "css" que contenga el archivo "styles.css".**
+**\[X] Carpeta "css" que contenga el archivo "styles.css".**
 
-**\[ ] (Opcional) Carpeta "img" para recursos gráficos.**
+**\[X] (Opcional) Carpeta "img" para recursos gráficos.**
 
-**\[ ] Archivo "README.md" creado, que incluya una breve descripción del TP y este checklist.**
+**\[X] Archivo "README.md" creado, que incluya una breve descripción del TP y este checklist.**
 
 
 
