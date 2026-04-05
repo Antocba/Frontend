@@ -108,13 +108,13 @@ Enlace a Vercel: https://antocba-frontend.vercel.app/
 
 **• Consideraciones Adicionales:**
 
-**\[ ] El diseño es responsivo y se visualiza correctamente en distintos dispositivos.**
+**\[?] El diseño es responsivo y se visualiza correctamente en distintos dispositivos.**
 
 **\[X] Se aplicaron buenas prácticas de accesibilidad (por ejemplo, uso adecuado de atributos alt en**
 
 **las imágenes).**
 
-**\[ ] Se añadieron comentarios adicionales donde se describan decisiones de diseño o la lógica de**
+**\[X] Se añadieron comentarios adicionales donde se describan decisiones de diseño o la lógica de**
 
 **implementación.**
 
