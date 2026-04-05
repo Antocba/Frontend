@@ -1,2 +1,111 @@
 # Frontend
-PFO y trabajos de la materia de Frontend 1C 2026
+
+
+
+Este Trabajo Práctico (TP) corresponde a la materia Frontend de segundo año de la Tecnicatura en Desarrollo de Software del Instituto de Formación Técnica Superior N°29 (IFTS 29). Se enmarca dentro de un proceso de aprendizaje continuo, en el que se busca no solo poner en práctica los contenidos trabajados en la cursada, sino también seguir desarrollando y fortaleciendo nuevas habilidades vinculadas al desarrollo de interfaces web. A través de este proyecto, se busca integrar los conocimientos adquiridos y continuar afianzando capacidades para desarrollar propuestas funcionales y organizadas.
+
+
+**Checklist - Práctica Formativa Obligatoria 1**
+
+
+
+**• Estructura del Proyecto:**
+
+**\[ ] Archivo "index.html" ubicado en la raíz.**
+
+**\[ ] Carpeta "css" que contenga el archivo "styles.css".**
+
+**\[ ] (Opcional) Carpeta "img" para recursos gráficos.**
+
+**\[ ] Archivo "README.md" creado, que incluya una breve descripción del TP y este checklist.**
+
+
+
+**• Repositorio y Publicación:**
+
+**\[ ] Repositorio en GitHub creado.**
+
+**\[ ] Proyecto subido al repositorio.**
+
+**\[ ] Proyecto publicado utilizando GitHub Pages.**
+
+**\[ ] En el "README.md" se indica la URL de GitHub Pages.**
+
+
+
+**• Uso de Google Fonts:**
+
+**\[ ] Enlace a Google Fonts incluido en la sección "head" del HTML.**
+
+**\[ ] La tipografía importada se aplica en el sitio.**
+
+**\[ ] Redacta brevemente tu decisión: ¿Por qué elegiste esa fuente?**
+
+**Respuesta: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
+
+
+
+**• HTML:**
+
+**\[ ] El documento inicia con la declaración DOCTYPE y usa el atributo lang="es".**
+
+**\[ ] Se han incluido las metaetiquetas obligatorias: charset y viewport.**
+
+**\[ ] Se ha definido un título descriptivo.**
+
+**\[ ] Se han vinculado correctamente el archivo CSS y el enlace a Google Fonts.**
+
+**Secciones obligatorias en "main":**
+
+**\[ ] Barra de navegación ("nav") presente y contiene al menos 3 enlaces.**
+
+**\[ ] Se han insertado al menos 4 comentarios explicativos en el código HTML.**
+
+**• CSS:**
+
+**\[ ] Existe el archivo "styles.css" con estilos personalizados.**
+
+**\[ ] Se utilizan selectores basados en clases e identificadores.**
+
+**\[ ] La tipografía importada desde Google Fonts se aplica correctamente en todos los elementos.**
+
+**Layout y Organización:**
+
+**\[ ] Se ha organizado el layout (especialmente en la sección "tarjetas") utilizando Flexbox o Grid.**
+
+**\[ ] Redacta: ¿Qué ventajas encontraste al utilizar Flexbox o Grid en tu proyecto?**
+
+**Respuesta: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
+
+**Estilización de Componentes:**
+
+**\[ ] Se han personalizado los estilos de tablas, botones, enlaces y formularios.**
+
+**\[ ] Se han ajustado las dimensiones de imágenes y contenedores utilizando unidades relativas (%,**
+
+**rem, vh).**
+
+**\[ ] Se ha implementado al menos una animación o transición (por ejemplo, efecto hover en**
+
+**tarjetas o botones).**
+
+**\[ ] Redacta: ¿Qué animación o transición implementaste y por qué consideraste que era**
+
+**adecuada para tu proyecto?**
+
+**Respuesta: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
+
+
+
+**• Consideraciones Adicionales:**
+
+**\[ ] El diseño es responsivo y se visualiza correctamente en distintos dispositivos.**
+
+**\[ ] Se aplicaron buenas prácticas de accesibilidad (por ejemplo, uso adecuado de atributos alt en**
+
+**las imágenes).**
+
+**\[ ] Se añadieron comentarios adicionales donde se describan decisiones de diseño o la lógica de**
+
+**implementación.**
+

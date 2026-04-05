@@ -1,11 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Primer intento de Portafolio (rezá Malena)</title>
+
+    <!--Enlace al estilo en CSS-->
+    <link rel="stylesheet" href="CSS/styles.css">
+
+    <!--Enlace a Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!--Fuente para titulos y cuerpo-->
+    <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Poppins:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
+    <header>
+        <h1 class="titulo_banner"> Cosa Nostra </h1>
+    </header>
+
+    <nav class="nav">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#tarjetas">Proyectos</a>
+        <a href="#habilidades">Habilidades y Hobbies</a>
+        <a href="#peliculas">Películas</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+
+    <main>
+        <section id="sobre-mi">
+
+            <h2>Sobre mí</h2>
+            <img src="IMG/Anto tortuga final.png" alt="imagen tortuga Anto">
+
+            <!--me falta la mision -->
+            <p> <b>¡Holas tarolas!</b> <br>
+                Soy Antonella, Profesora y Licenciada en Comunicación Social, Técnica en RR.HH y estudiante de la
+                Técnicatura en Desarrollo de Software en el IFTS N°29. <br>
+                Originaria del área de las Ciencias Sociales, lucho constantemente para entender la lógica y la
+                abstracción de la programación. <br>
+                Me interesa especialmente la comunicación visual, área que también desarrollo a través de un
+                emprendimiento de diseño para eventos. <br>
+                Si te interesa conocer un poco más de mí y lo que hago, escribime a través del formulario de contacto.
+            </p>
+
+        </section>
+
+        <section id="tarjetas">
+
+            <h2>Proyectos</h2>
+
+            <div id="tarjeta-contenedor">
+                <div class="tarjeta">
+                    <img src="IMG/SePrice.png" alt="Imagen del proyecto SePrice" class="tarjeta-img">
+                    <h3>SePrice</h3>
+                    <p>Software de gestión para la clínica SePrice, que permite asignar turnos, registrar la atención de
+                        pacientes y gestionar estudios médicos, agilizando la organización y el seguimiento de la
+                        atención sanitaria.</p>
+                </div>
+
+                <div class="tarjeta">
+                    <img src="IMG/Club_Depor.png" alt="Imagen del proyecto Gestión Club Deportivo" class="tarjeta-img">
+                    <h3>Gestión Club Deportivo</h3>
+                    <p>App móvil desarrollada en Kotlin para la gestión de clientes, administración de actividades y
+                        cobro de cuotas, diseñada para agilizar la organización y el seguimiento de pagos y servicios.
+                    </p>
+                </div>
+
+                <div class="tarjeta">
+
+                    <!--Mejorar imagen, se ve media cortada-->
+                    <img src="IMG/Cosa_Nostra.png" alt="Imagen del proyecto Cosa Nostra Personalizados"
+                        class="tarjeta-img">
+
+                    <h3>Cosa Nostra Personalizados</h3>
+                    <p>Emprendimiento dedicado a la sublimación, estampado y papelería personalizada para eventos,
+                        utilizando diversas técnicas de última generación para garantizar productos de excelente calidad
+                        y diseño único.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="habilidades">
+
+            <h2>Habilidades y Hobbies</h2>
+
+            <div class="habilidades-hobbie-contenedor">
+
+                <div class="tarjeta-grande-hp">
+                    <h3>Habilidades</h3>
+
+                    <div id="habilidades-contenedor">
+                        <div class="sub-tarjeta">
+                            <h4>Tecnologías que domino</h4>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Kotlin</li>
+                                <li>MySQL</li>
+                                <li>GitHub</li>
+                                <li>Figma</li>
+                                <li>Adobe Photoshop</li>
+                                <li>Adobe Illustrator</li>
+                            </ul>
+                        </div>
+                        <div class="sub-tarjeta deseo">
+                            <h4>Tecnologías que deseo dominar</h4>
+                            <ul>
+                                <li>React</li>
+                                <li>Node.js</li>
+                                <li>Python</li>
+                                <li>JavaScript</li>
+                                <li>Java</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Reemplazar en un futuro por un carrusel mostrando mis hobbies -->
+                <div class="tarjeta-grande-hp">
+                    <h3>Hobbies</h3>
+
+                    <div id="hobbies-contenedor">
+                        <img src="IMG/collage_hobbies.png" alt="Collage de hobbies" class="hobbies-img">
+                    </div>
+                </div>
+
+        </section>
+
+
+        <section id="peliculas">
+            <h2>Top 3 mejores películas</h2>
+
+            <div id="pelicula-contenedor">
+                <div class="tarjeta-pelicula">
+
+                    <h3>1° El Padrino</h3>
+                    <div class="video-container">
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/iOyQx7MXaz0?si=XvKicmtKhz9p_z7d"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </div>
+
+                    <p>Dirigida por Francis Ford Coppola, esta obra maestra del cine narra la historia de la familia
+                        Corleone, una poderosa dinastía mafiosa en Nueva York. Con actuaciones icónicas y una trama
+                        envolvente, "El Padrino" es un clásico que explora temas de poder, lealtad y traición. 
+                        <br>P/D: Si trabaja Al Pacino y Marlon Brando, no hay nada más que decir.
+                    </p>
+                </div>
+
+                <div class="tarjeta-pelicula">
+                    <h3>2° Scarface</h3>
+                    <div class="video-container">
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/7pQQHnqBa2E?si=g9C0r7OWmMEGy4tp"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </div>
+                    <!--cambiar descripcion-->
+                    <p>Dirigida por Brian De Palma, esta película sigue la ascensión y caída de Tony Montana, un inmigrante cubano que se convierte en un poderoso narcotraficante en Miami. 
+                        Con una actuación icónica de Al Pacino y una trama llena de violencia y ambición, "Scarface" es un clásico del cine de gánsteres que explora los peligros del poder y la corrupción. 
+                        <br>P/D: película que nos brindó icónicas frases como "Say hello to my little friend" y mi favorita, <b>"The eyes, chico, they never lie"</b>.
+                    </p>
+                </div>
+
+                <div class="tarjeta-pelicula">
+                    <h3>3° Snatch</h3>
+                    <div class="video-container">
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/9Jar2XkBboo?si=R43o1hPjs778aK0w"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </div>
+                    <p>Dirigida por Guy Ritchie, esta comedia de criminales cuenta la historia de varios personajes
+                        que se entrelazan en una trama llena de giros y sorpresas. Con un estilo único y diálogos
+                        ingeniosos, "Snatch" es una obra maestra del cine británico contemporáneo.
+                        <br>P/D: película donde Brad Pitt deja de lado el ser una cara bonita para interpretar a un boxeador gitano con un acento inentendible.
+                    </p>
+                </div>
+
+        </section>
+
+
+        <section id="contacto">
+
+                <h2>Contacto</h2>
+    
+                <form id="contacto-formulario">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+    
+                    <button type="submit">Enviar</button>
+                </form>
+        </section>
+
+    </main>
 
 </body>
+
 </html>
