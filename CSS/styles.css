@@ -435,6 +435,19 @@ footer p {
 
 @media (max-width: 768px) {
 
+  .titulo_banner {
+    font-size: 2.5rem;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav a {
+    margin: 5px 0;
+  }
+
   #tarjeta-contenedor {
     flex-direction: column;
     align-items: center;
@@ -463,5 +476,7 @@ footer p {
     width: 100%;
     max-width: 400px;
     margin: 0 auto;
+    flex: none;
+
   }
 }
