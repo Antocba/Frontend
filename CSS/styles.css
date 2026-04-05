@@ -81,7 +81,8 @@ header {
 }
 
 section {
-  margin-top: 40px;
+  margin-top: 30px;
+  margin-bottom: 20px;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
@@ -97,7 +98,6 @@ section h2 {
 #sobre-mi {
   text-align: justify;
   max-width: 800px;
-  margin: 40px auto;
   padding: 20px;
 }
 
@@ -121,9 +121,8 @@ section h2 {
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
-  margin: 0 auto;
+  margin: 20px auto;
   max-width: 1000px;
-  padding: 20px;
   text-align: center;
 }
 
@@ -178,7 +177,7 @@ section h2 {
   justify-content: space-between;
   flex-wrap: nowrap;
   gap: 20px;
-  margin: 0 auto;
+  margin: 20px auto;
   max-width: 1000px;
   padding: 0 10px;
 }
@@ -188,7 +187,7 @@ section h2 {
   justify-content: center;
   gap: 20px;
   flex-wrap: nowrap;
-  margin-top: 20px;
+  margin: 20px auto;
 }
 
 .tarjeta-grande-hp {
@@ -223,6 +222,14 @@ section h2 {
   margin-top: 20px;
 }
 
+#hobbies-contenedor img {
+  min-width: 140px;
+  max-width: 400px;
+  display: block;
+  margin: 0 auto 20px;
+  object-fit: cover;
+}
+
 .sub-tarjeta {
   background-color: #fff3e0;
   flex: 1;
@@ -243,7 +250,6 @@ section h2 {
   background-color: #d0ebff;
 }
 
-
 .sub-tarjeta ul {
   list-style: none;
   padding: 0;
@@ -253,14 +259,6 @@ section h2 {
 .sub-tarjeta li {
   margin: 5px 0;
   font-weight: 400;
-}
-
-#hobbies-contenedor img {
-  min-width: 140px;
-  max-width: 400px;
-  display: block;
-  margin: 0 auto 20px;
-  object-fit: cover;
 }
 
 #peliculas h2 {
@@ -330,6 +328,105 @@ section h2 {
   margin: 0;
   display: flex;
   line-height: 1
+}
+
+/* toma a contacto, xq se edita la seccion, no solo el form*/
+#contacto {
+  background-color: #ffba6a;
+  width: 100%;
+  padding: 40px 0;
+  max-width: none;
+}
+
+.contacto-contenido {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.contacto-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: none;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  font-size: 1rem;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+footer {
+  padding: 15px 0;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('../IMG/banner_tortuga.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  /* 👈 importante */
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  text-align: center;
+}
+
+footer p {
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.redes {
+  display: flex;
+  gap: 15px;
+}
+
+.redes img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.redes img:hover {
+  transform: scale(1.2);
 }
 
 @media (max-width: 500px) {
