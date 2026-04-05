@@ -174,9 +174,9 @@ section h2 {
 
 .habilidades-hobbie-contenedor {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   gap: 20px;
+  justify-content: center;
   margin: 20px auto;
   max-width: 1000px;
   padding: 0 10px;
@@ -192,7 +192,9 @@ section h2 {
 
 .tarjeta-grande-hp {
   background-color: #ffba6a;
-  flex: 1;
+  flex: 1 1 300px;
+  max-width: 450px;
+  min-width: 280px;
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -217,16 +219,16 @@ section h2 {
 #hobbies-contenedor {
   display: flex;
   justify-content: center;
-  gap: 20px;
   flex-wrap: wrap;
+  gap: 20px;
   margin-top: 20px;
 }
 
 #hobbies-contenedor img {
-  min-width: 140px;
-  max-width: 400px;
-  display: block;
-  margin: 0 auto 20px;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  border-radius: 10px;
   object-fit: cover;
 }
 
@@ -460,6 +462,7 @@ footer p {
 
   .habilidades-hobbie-contenedor {
     flex-direction: column;
+    align-items: center;
   }
 
   #habilidades-contenedor {
@@ -470,13 +473,23 @@ footer p {
     flex-direction: column;
   }
 
-  .tarjeta,
-  .tarjeta-pelicula,
-  .tarjeta-grande-hp {
-    width: 100%;
-    max-width: 400px;
-    margin: 0 auto;
-    flex: none;
-
+  #hobbies-contenedor img {
+    max-width: 100%;
+    height: auto;
   }
+
+  .tarjeta,
+  .tarjeta-pelicula {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  flex: none;
+
+}
+
+.tarjeta-grande-hp {
+  width: 100%;
+  max-width: 400px;
+  min-width: unset;
+}
 }
